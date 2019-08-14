@@ -4,7 +4,7 @@ Introduction to Deep Learning Specialization ([Official Site](https://www.course
 
 ## Course 1. Neural Networks and Deep Learning
 ### Week 1. Introduction to deep learning
-- Notes(https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/Week1/C1W1Note.md)
+- [Notes](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/Week1/C1W1Note.md)
 
 ### Week 2. Neural Networks Basics
 ### Week 3. Shallow neural networks
