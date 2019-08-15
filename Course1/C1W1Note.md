@@ -3,7 +3,7 @@ Neural Network (NN)?
 
 ### Single neuron, e.g. ReLu (rectified linear unit)
 
-![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/Week1/screenshot/1.PNG)
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/1.PNG)
 The figure shows the simplest possible neural networks is to define
 *f*(*x*) as a single "neuron" in the network where
 *f*(*x*)=max(*a**x* + *b*, 0), for some coefficients *a*, *b*. What
@@ -12,7 +12,7 @@ even is greater.
 
 ### A more complex neural network ("stack" the single neuron output as input into the next neuron)
 
-![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/Week1/screenshot/2.PNG)
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/2.PNG)
 
 Here, the input to a neural network is a set of input features (**input
 layers**) *x*<sub>1</sub> (size), *x*<sub>2</sub> (\# bedrooms),
@@ -60,7 +60,7 @@ Why is deep learning taking off (3 reasons)?
 --------------------------------------------
 
 -   Data
-![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/Week1/screenshot/3.PNG)
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/3.PNG)
 
 -   Computation: GPUs, powerful CPUs, distributed computing, ASICs
 
