@@ -82,7 +82,8 @@ Computation graph
 ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/4.PNG)
 
 -   A computation graph that organizes derivative (including chain rule)
-    \*\* backward (from right to left)\*\*.
+    \*\*backward (from right to left)\*\*.
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/5.PNG)
 
 ### Logistic regression gradient descent (1 training point)
 
