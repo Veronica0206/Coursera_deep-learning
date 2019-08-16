@@ -7,7 +7,7 @@ Introduction to Deep Learning Specialization ([Official Site](https://www.course
 - [Notes](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/C1W1Note.md)
 
 ### Week 2. Neural Networks Basics
-- [Notes](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/C1W2.md)
+- [Notes](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/C1W2Note.md)
 
 - [NumPy Example](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/C1W2.ipynb)
 
