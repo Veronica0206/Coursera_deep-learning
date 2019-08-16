@@ -15,13 +15,13 @@ Introduction to Deep Learning Specialization ([Official Site](https://www.course
 ### Week 4. Deep Neural Networks
 
 ## Course 2. Improving Deep Neural Networks Hyperparameter tuning, Regularization and Optimization
-### Week 1. Practical aspects of Deep Learning--Setting up your Machine Learning Application - Regularizing your neural network--Setting up your optimization problem
+### Week 1. Practical aspects of Deep Learning---Setting up your Machine Learning Application---Regularizing your neural network---Setting up your optimization problem
 ### Week 2. Optimization algorithms
 ### Week 3. Hyperparameter tuning, Batch Normalization and Programming Frameworks
 
 ## Course 3. Structuring Machine Learning Projects
-### Week 1. Introduction to ML Strategy--Setting up your goal--Comparing to human-level performance
-### Week 2. ML Strategy (2)--Error Analysis--Mismatched training and dev/test set--Learning from multiple tasks--End-to-end deep learning
+### Week 1. Introduction to ML Strategy---Setting up your goal---Comparing to human-level performance
+### Week 2. ML Strategy (2)---Error Analysis---Mismatched training and dev/test set---Learning from multiple tasks---End-to-end deep learning
 
 ## Course 4. Convolutional Neural Networks
 ### Week 1. Foundations of Convolutional Neural Networks
