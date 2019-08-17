@@ -12,6 +12,8 @@ Introduction to Deep Learning Specialization ([Official Site](https://www.course
 - [NumPy Example](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/C1W2.ipynb)
 
 ### Week 3. Shallow neural networks
+- [Notes](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/C1W3Note.md)
+
 ### Week 4. Deep Neural Networks
 
 ## Course 2. Improving Deep Neural Networks Hyperparameter tuning, Regularization and Optimization

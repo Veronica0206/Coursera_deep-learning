@@ -6,7 +6,7 @@ Neural networks overview
 -   In neural networks with one hidden layer:
     *x* → *z*<sub>1</sub> → *a*<sub>1</sub> → *z*<sub>2</sub> → *a*<sub>2</sub> → *L*(*a*<sub>2</sub>, *y*)
 
-![](screenshot/7.png)
+ ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/7.PNG)
 
 Computing a neural network's output
 -----------------------------------
@@ -26,9 +26,10 @@ Computing a neural network's output
     to represent the first node (neuron) and the second node (neuron) of
     the first layer.
 
-![](screenshot/8.png)
+ ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/8.PNG)
 
-![](screenshot/9.png)
+ ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/9.PNG)
+
 
 -   Shapes of the variables and parameters
 
@@ -158,12 +159,12 @@ activation functions, etc.).**
 Gradient descent for the neural networks (backward propagation of the neural networks)
 --------------------------------------------------------------------------------------
 
-![](screenshot/10.png)
+ ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/10.PNG)
+
 
 ### Algorithm
 
-$$
-\\begin{aligned}
+$\\begin{aligned}
 &Repeat:\\\\
 &\\quad compute\\ predictions\\ (\\hat{y}^{(i)},i=1,2,\\dots,m)\\\\
 &\\quad get\\ derivatives: dw\_{1},db\_{1},dw\_{2},db\_{2}\\\\
@@ -172,20 +173,17 @@ $$
 &\\quad\\quad b^{\[1\]}=b^{\[1\]}-\\alpha\*db^{\[1\]}\\\\
 &\\quad\\quad w^{\[2\]}=w^{\[2\]}-\\alpha\*dw^{\[2\]}\\\\
 &\\quad\\quad b^{\[2\]}=b^{\[2\]}-\\alpha\*db^{\[2\]}
-\\end{aligned}
-$$
+\\end{aligned}$
 
 where
-$$
-\\begin{aligned}
+$\\begin{aligned}
 &dz^{\[2\]}=a^{\[2\]}-y\\\\
 &dw^{\[2\]}=dz^{\[2\]}\*a^{\[1\]T}\\\\
 &db^{\[2\]}=dz^{\[2\]}\\\\
 &dz^{\[1\]}=w^{\[2\]T}dz^{\[2\]}\*a^{\[1\]'}z^{\[1\]}\\\\
 &dw^{\[1\]}=dz^{\[1\]}\*a^{\[0\]T}=dz^{\[1\]}\*x^{T}\\\\
 &db^{\[1\]}=dz^{\[1\]}
-\\end{aligned}
-$$
+\\end{aligned}$
 
 ### Random initialization
 
