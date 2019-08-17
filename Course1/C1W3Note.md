@@ -6,7 +6,7 @@ Neural networks overview
 -   In neural networks with one hidden layer:
     *x* → *z*<sub>1</sub> → *a*<sub>1</sub> → *z*<sub>2</sub> → *a*<sub>2</sub> → *L*(*a*<sub>2</sub>, *y*)
 
-![](screenshot/7.png)
+ ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/7.PNG)
 
 Computing a neural network's output
 -----------------------------------
@@ -26,9 +26,10 @@ Computing a neural network's output
     to represent the first node (neuron) and the second node (neuron) of
     the first layer.
 
-![](screenshot/8.png)
+ ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/8.PNG)
 
-![](screenshot/9.png)
+ ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/9.PNG)
+
 
 -   Shapes of the variables and parameters
 
@@ -158,7 +159,8 @@ activation functions, etc.).**
 Gradient descent for the neural networks (backward propagation of the neural networks)
 --------------------------------------------------------------------------------------
 
-![](screenshot/10.png)
+ ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/10.PNG)
+
 
 ### Algorithm
 
