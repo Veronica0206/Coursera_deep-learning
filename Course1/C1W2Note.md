@@ -6,13 +6,13 @@ Binary classification
 
 -   Notation:
 
-1.  ($x$, $y$), $x$ ∈ $R$<sup>$n$<sub>$x$</sub></sup>, $y$ ∈ {0, 1}
+1.  (*x*, *y*), *x* ∈ *R*<sup>*n*<sub>*x*</sub></sup>, *y* ∈ {0, 1}
 
 2.  m training samples:
-    {($x$<sup>(1)</sup>, $y$<sup>(1)</sup>),($x$<sup>(2)</sup>, $y$<sup>(2)</sup>),…,($x$<sup>($m$)</sup>, $y$<sup>($m$)</sup>)}
+    {(*x*<sup>(1)</sup>, *y*<sup>(1)</sup>),(*x*<sup>(2)</sup>, *y*<sup>(2)</sup>),…,(*x*<sup>(*m*)</sup>, *y*<sup>(*m*)</sup>)}
 
-3.  $x$ ∈ $R$<sup>$m$ \$ $n$<sub>$x$</sub></sup>,
-    $y$ ∈ $R$<sup>$m$ \$ 1</sup>
+3.  *x* ∈ *R*<sup>*m* \* *n*<sub>*x*</sub></sup>,
+    *y* ∈ *R*<sup>*m* \* 1</sup>
 
 ### Logistic regression
 
@@ -21,17 +21,17 @@ Binary classification
 -   Equation: $\\hat{y}=\\sigma(w^{T}x+b)$, where
     $\\sigma(z)=\\frac{1}{1+e^{-z}}$
 
-1.  If $z$ is large, $\\sigma(z)\\approx\\frac{1}{1+0}=1$
+1.  If *z* is large, $\\sigma(z)\\approx\\frac{1}{1+0}=1$
 
-2.  If $z$ is large, $\\sigma(z)\\approx\\frac{1}{1+big\\ \\\#}=0$
+2.  If *z* is large, $\\sigma(z)\\approx\\frac{1}{1+big\\ \\\#}=0$
 
--   Parameters: $w$ ($n$<sub>$x$</sub> dimension vector) and $b$
+-   Parameters: *w* (*n*<sub>*x*</sub> dimension vector) and *b*
 
 ### Logistic regression cost function
 
 -   Equation: $\\hat{y}=\\sigma(w^{T}x+b)$, where
     $\\sigma(z)=\\frac{1}{1+e^{-z}}$, given
-    {($x$<sup>(1)</sup>, $y$<sup>(1)</sup>),($x$<sup>(2)</sup>, $y$<sup>(2)</sup>),…,($x$<sup>($m$)</sup>, $y$<sup>($m$)</sup>)},
+    {(*x*<sup>(1)</sup>, *y*<sup>(1)</sup>),(*x*<sup>(2)</sup>, *y*<sup>(2)</sup>),…,(*x*<sup>(*m*)</sup>, *y*<sup>(*m*)</sup>)},
     want $\\hat{y}^{(i)}\\approx y^{(i)}$
 
 -   Loss (error) function: the error for a single training example
@@ -41,10 +41,10 @@ Binary classification
 2.  Logistic loss:
     $L(\\hat{y},y)=-(y\\log\\hat{y}+(1-y)\\log(1-\\hat{y}))$
 
--   If $y$ = 1, $L(\\hat{y},y)=-\\log\\hat{y}$, want $\\log\\hat{y}$
+-   If *y* = 1, $L(\\hat{y},y)=-\\log\\hat{y}$, want $\\log\\hat{y}$
     large, want $\\hat{y}$ large (approach to 1).
 
--   If $y$ = 0, $L(\\hat{y},y)=-\\log(1-\\hat{y})$, want
+-   If *y* = 0, $L(\\hat{y},y)=-\\log(1-\\hat{y})$, want
     $\\log(1-\\hat{y})$ large, want $\\hat{y}$ small (approach to 0).
 
 -   Cost function: the average of the loss function of the entire
@@ -55,8 +55,8 @@ Binary classification
 
 ### Gradient descent
 
-Want to find ($w$, $b$) that minimize $J$($w$, $b$) (convex function
-($$a single big bowl$$))
+Want to find (*w*, *b*) that minimize *J*(*w*, *b*) (convex function
+(**a single big bowl**))
 
 -   Repeat
     $$
@@ -65,8 +65,8 @@ Want to find ($w$, $b$) that minimize $J$($w$, $b$) (convex function
     &b:b-\\alpha\\frac{\\partial J(w,b)}{\\partial b}\\\\
     \\end{aligned}
     $$
-     where $α$ is learning rate. When the slope is negative, then $w$
-    increases and when the slope is positive, then $w$ decreases.
+     where *α* is learning rate. When the slope is negative, then *w*
+    increases and when the slope is positive, then *w* decreases.
 
 ### Derivatives
 
@@ -76,13 +76,13 @@ points in the function, that's why the derivative is a function.
 Computation graph
 -----------------
 
--   A computation graph that organizes the computation $$(forward) from
-    left to right$$.
+-   A computation graph that organizes the computation **(forward) from
+    left to right**.
 
 ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/4.PNG)
 
 -   A computation graph that organizes derivative (including chain rule)
-    \$\$backward (from right to left)\$\$.
+    \*\*backward (from right to left)\*\*.
 ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/5.PNG)
 
 ### Logistic regression gradient descent (1 training point)
@@ -98,9 +98,9 @@ Computation graph
  
  ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/6.PNG)
 
-### Gradient descent on $m$ examples
+### Gradient descent on *m* examples
 
-$J$ = 0, $d$$w$<sub>1</sub> = 0, $d$$w$<sub>2</sub> = 0, $d$$b$ = 0
+*J* = 0, *d**w*<sub>1</sub> = 0, *d**w*<sub>2</sub> = 0, *d**b* = 0
 
 $$
 \\begin{aligned}
@@ -134,8 +134,8 @@ Vectorization
 
 ### Vectorizing logistic regression
 
--   Input: $x$ : ($n$<sub>$x$</sub>, $m$),
-    $y$ : ($n$<sub>$y$</sub>, $m$)
+-   Input: *x* : (*n*<sub>*x*</sub>, *m*),
+    *y* : (*n*<sub>*y*</sub>, *m*)
     $$
     \\begin{aligned}
     &z=np.dot(w.T, x) +b\\\\
@@ -148,10 +148,10 @@ Vectorization
 
 ### Notes on Python and NumPy
 
--   In NumPy, $o$$b$$j$.$s$$u$$m$($a$$x$$i$$s$ = 0) sums the columns
-    while $o$$b$$j$.$s$$u$$m$($a$$x$$i$$s$ = 1) sums the rows.
+-   In NumPy, *o**b**j*.*s**u**m*(*a**x**i**s* = 0) sums the columns
+    while *o**b**j*.*s**u**m*(*a**x**i**s* = 1) sums the rows.
 
--   In NumPy, $o$$b$$j$.$s$$h$$a$$p$$e$(1, 4) changes the shape of the
+-   In NumPy, *o**b**j*.*s**h**a**p**e*(1, 4) changes the shape of the
     matrix by broadcasting the values
 
 -   Reshape is cheap in calculations so put it everywhere you're not
@@ -161,19 +161,19 @@ Vectorization
     don't match for the operation; in this case, NumPy automatically
     makes the shapes ready for the operation by broadcasting the values.
 
--   A general principle of broadcasting. If you have an ($m$, $n$)
-    matrix and you add ( + ) or subtract ( − ) or multiply ( \$ ) or
-    divide (/) with a (1, $n$) matrix, then this will copy it $m$ times
-    into an ($m$, $n$) matrix. The same with if you use those operations
-    with a ($m$, 1) matrix, then this will copy it $n$ times into
-    ($m$, $n$) matrix. And then apply the addition, subtraction, and
+-   A general principle of broadcasting. If you have an (*m*, *n*)
+    matrix and you add ( + ) or subtract ( − ) or multiply ( \* ) or
+    divide (/) with a (1, *n*) matrix, then this will copy it *m* times
+    into an (*m*, *n*) matrix. The same with if you use those operations
+    with a (*m*, 1) matrix, then this will copy it *n* times into
+    (*m*, *n*) matrix. And then apply the addition, subtraction, and
     multiplication of division element-wise.
 
 -   Some tricks to eliminate all the strange bugs in the code:
 
 1.  If you didn't specify the shape of a vector, it would take shape of
-    ($m$, ) and the transpose operation won't work. You have to reshape
-    it to ($m$, 1)
+    (*m*, ) and the transpose operation won't work. You have to reshape
+    it to (*m*, 1)
 
 2.  Try not to use the rank one matrix a NN.
 
