@@ -79,10 +79,11 @@ Computation graph
 -   A computation graph that organizes the computation **(forward) from
     left to right**.
 
-![](screenshot/4.png)
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/4.PNG)
 
 -   A computation graph that organizes derivative (including chain rule)
-    \*\* backward (from right to left)\*\*.
+    \*\*backward (from right to left)\*\*.
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/5.PNG)
 
 ### Logistic regression gradient descent (1 training point)
 
@@ -94,7 +95,8 @@ Computation graph
     &L(a,y)=-(y\\log(a)+(1-y)\\log(1-a))
     \\end{aligned}
     $$
-     ![](screenshot/6.png)
+ 
+ ![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/6.PNG)
 
 ### Gradient descent on *m* examples
 
