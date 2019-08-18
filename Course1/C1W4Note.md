@@ -5,7 +5,7 @@ Deep L-layer neural network
 
 ### Deep neural network notation
 
-![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/12.png)
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/12.PNG)
 
 -   *l* = 4 (\# of layers);
 
@@ -51,7 +51,7 @@ $$
 -   Deep NN makes relation with data from simpler to complex. In each
     layer, it tries to make a relation with the previous layer.
 
-![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/13.png)
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/13.PNG)
 
 1.  Face recognition application: image→edges→face parts→faces→desired
     face
@@ -64,7 +64,7 @@ brains**
 
 -   Circuit theory and deep learning 
 
-![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/14.png)
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/14.PNG)
 
 -   When starting on an application, don't start directly by dozens of
     hidden layers. Try the simplest solutions (e.g., logistic
@@ -75,9 +75,9 @@ Building blocks of deep neural networks
 
 ### Forward and backward functions
 
-![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/15.png)
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/15.PNG)
 
-![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/16.png)
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/16.PNG)
 
 ### Forward and backward propagation
 
@@ -123,4 +123,4 @@ Parameters vs. hyperparameters
 What does this have to do with the brain
 ----------------------------------------
 
-![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/17.png)
+![](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course1/screenshot/17.PNG)
