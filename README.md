@@ -40,11 +40,44 @@ Introduction to Deep Learning Specialization ([Official Site](https://www.course
 
 ## Course 4. Convolutional Neural Networks
 ### Week 1. Foundations of Convolutional Neural Networks
+
+- [Program 1](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course4/C4W1P1.ipynb)
+
+- [Program 2](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course4/C4W1P2.ipynb)
+
 ### Week 2. Deep convolutional models: case studies
+
+- [Program 1](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course4/C4W2P1.ipynb)
+
+- [Program 2](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course4/C4W2P2.ipynb)
+
 ### Week 3. Object detection
+
+- [Program 1](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course4/C4W3.ipynb)
+
 ### Week 4. Special applications: Face recognition & Neural style transfer
+
+- [Program 1](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course4/C4W4P1.ipynb)
+
+- [Program 2](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course4/C4W4P2.ipynb)
 
 ## Course 5. Sequence Models
 ### Week 1. Recurrent Neural Networks
+
+- [Program 1](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course5/C5W1P1.ipynb)
+
+- [Program 2](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course5/C5W1P2.ipynb)
+
+- [Program 1](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course5/C5W1P3.ipynb)
+
 ### Week 2. Natural Language Processing & Word Embeddings
+
+- [Program 1](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course5/C5W2P1.ipynb)
+
+- [Program 2](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course5/C5W2P2.ipynb)
+
 ### Week 3. Sequence models & Attention mechanism
+
+- [Program 1](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course5/C5W3P1.ipynb)
+
+- [Program 2](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course5/C5W3P2.ipynb)
