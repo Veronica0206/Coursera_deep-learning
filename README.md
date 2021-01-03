@@ -68,7 +68,7 @@ Introduction to Deep Learning Specialization ([Official Site](https://www.course
 
 - [Program 2](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course5/C5W1P2.ipynb)
 
-- [Program 1](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course5/C5W1P3.ipynb)
+- [Program 3](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Course5/C5W1P3.ipynb)
 
 ### Week 2. Natural Language Processing & Word Embeddings
 
