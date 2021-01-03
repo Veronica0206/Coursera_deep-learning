@@ -1,6 +1,6 @@
 # Deep Learning (deeplearning.ai)
 
-- [Specialization Information] (https://www.coursera.org/specializations/deep-learning)
+- [Specialization Information](https://www.coursera.org/specializations/deep-learning)
 
 - [Certification](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Certification.pdf)
 
