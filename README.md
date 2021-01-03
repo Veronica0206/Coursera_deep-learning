@@ -1,6 +1,8 @@
 # Deep Learning (deeplearning.ai)
 
-Introduction to Deep Learning Specialization ([Official Site](https://www.coursera.org/specializations/deep-learning))
+- [Specialization Information] (https://www.coursera.org/specializations/deep-learning)
+
+- [Certification](https://github.com/Veronica0206/Coursera_deep-learning/blob/master/Certification.pdf)
 
 ## Course 1. Neural Networks and Deep Learning
 ### Week 1. Introduction to deep learning
